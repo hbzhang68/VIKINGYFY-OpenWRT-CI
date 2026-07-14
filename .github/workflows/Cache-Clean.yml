@@ -4,9 +4,9 @@
 name: Cache-Clean
 
 on:
-  #自动清理：每周一早上1点
+  #自动清理：每周一早上2点
   schedule:
-    - cron: 0 17 * * 0
+    - cron: 0 18 * * 0
   #手动清理
   workflow_dispatch:
 
